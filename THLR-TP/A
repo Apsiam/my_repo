@@ -1,0 +1,18 @@
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=white shape=circle style=filled]
+	0
+	"0_i" [style=invisible]
+	"0_i" -> 0
+	node [fillcolor=white shape=doublecircle style=filled]
+	1
+	node [fillcolor=white shape=circle style=filled]
+	2
+	node [fillcolor=white shape=circle style=filled]
+	3
+	0 -> 1 [label=" " color=gray]
+	0 -> 2 [label=" " color=gray]
+	2 -> 3 [label=a color=black]
+	3 -> 1 [label=" " color=gray]
+	3 -> 2 [label=" " color=gray]
+}
